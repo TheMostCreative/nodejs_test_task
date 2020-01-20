@@ -40,7 +40,7 @@ server.on("request", function(request, response) {
 });
 
 server.listen(port);
-console.log("Browse to http://127.0.0.1:" + port);
+console.log("Server started on port " + port);
 
 ///////////////////////
 // HELPERS FUNCTIONS //
